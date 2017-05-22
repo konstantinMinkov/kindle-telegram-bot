@@ -1,1 +1,1 @@
-web: java -jar target/telegram-core-1.0-SNAPSHOT.jar
+web: java -jar bot-app/target/bot-app-1.0-SNAPSHOT.jar
