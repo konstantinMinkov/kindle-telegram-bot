@@ -1,1 +1,1 @@
-web: java -jar bot-app/target/bot-app-1.0-SNAPSHOT.jar
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar bot-app/target/*.jar
