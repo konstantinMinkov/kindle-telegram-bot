@@ -1,0 +1,11 @@
+language: java
+
+jdk:
+    - oraclejdk8
+
+# fix issue with key 'invalid option "--api_key="'
+#deploy:
+#    provider: heroku
+#    on: prod
+#    api_key:
+#        secure: "qEV3LeAVuJoNMW/NoAAEXk2TsPArdvCeIXBNxTeonDvM9B7CXBgMRjKTlVWiPxLDouxb9QcQ665LIH99u7O0RjZ5otaFaofs6bDkJwu56ewo79oNHH4tmAe48ajn+ZkRaC838pKZDHSqLYJPM7kGpBvXtf9CJ3qAdy/5bFqN8SE0BPF5zqOSlH1GwrtY0isgx37WhQPCvJogNN/ERnIHGkU71/Z1Gh82vxRWpMhSzt3ve4lR0nvt2XQgIe5Mt5V2+7rAL3HWdHIqlocKNhNCP/Y87GOU5OP7B3/mCya8UnTXWPd8FXqykE5nY8+Fq1Pzefy58RxTSycagaQLJENjsyxHrv83ICvf/4lx+SGf7kA+WiTf4HmiJgpRzJmtPH6uZSopGFScY6+fQPyfvYcXf6EYerQg7esa2Z8x6hvVIIdtYNsXaxhrUPT7hRBIV8JnB5xyjgEqiTldigT4vkQVjriZUv8j7vJT/A2XHIfR5Xl4XAm+unW49Uj6FgW2ucWLx4v7iePqWXW4VUUnAUDQj001UJzzzRZp7jL+V4Arlr1latuMRxRJlcRCedly4Rx+MqtYBUJHe2BmrNPxxdDi7vpgVStr4YY3jjCS3uXPa+t6HZABiAE4nts/N4P7EBRtKRid1Z4wRBSldA5MSxvpQFDgnih8PgN+QQ9qjqfPSFk="
